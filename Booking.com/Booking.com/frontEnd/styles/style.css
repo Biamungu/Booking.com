@@ -1,0 +1,1422 @@
+body {
+    background-color: white;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; /* Space between images */
+    padding: 20px;
+}
+
+.image {
+    width: 100%;
+    padding-bottom: 100%; /* This makes the divs square */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Assign background images */
+
+#image1 {
+    background-image: url('assets/images/attractions/attraction1.jpg');
+}
+
+#image2 {
+    background-image: url('path/to/image2.jpg');
+}
+
+#image3 {
+    background-image: url('path/to/image3.jpg');
+}
+
+#image4 {
+    background-image: url('path/to/image4.jpg');
+}
+
+#image5 {
+    background-image: url('path/to/image5.jpg');
+}
+
+#image6 {
+    background-image: url('path/to/image6.jpg');
+}
+
+/* image- grid ends */
+
+.attractions-search .form-group {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+   
+
+.followup .follow {
+    display: inline-block;
+    width: 25%;
+    margin-top: 40px;
+    margin-left: 40px;
+    padding: 30px;
+}
+
+.signInOptions {
+    padding: 10px;
+    margin-top: 40px;
+    border: 1px solid grey;
+}
+
+
+
+.cars {
+    font-size: 30px;
+    padding: 20px;
+}
+
+
+
+.cars .form-group {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+
+.flights {
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.fight{
+    height: 400px;
+    width: 100%;
+    background-color: #c6cad4;
+}
+
+.flights .form-group {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 30px;
+    background-color: #bbd3ee;
+}
+
+.fight h1{
+    color: white;
+}
+
+
+/*THIS PART HANDLES THE FOOTER PARTY*/
+
+.footerOne {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    margin: 50px;
+    padding: 10px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.footer li {
+    padding: 5px;
+    font-size: 20px;
+}
+
+.footer li a {
+    color: #5077f7;
+    text-decoration: none;
+}
+
+.footer li a:hover {
+    color: rgb(240, 160, 13);
+}
+
+
+
+
+
+.footerTwo{
+   text-align: center;
+   margin: 0;
+   padding: 20px;
+   font-size: 30px;
+   font-weight: 10px;
+   text-decoration: none;
+   }
+
+.footerTwo a{
+    text-decoration: none;
+    color: #5077f7;
+    }
+
+ .footerTwo a:hover{
+    color: rgb(240, 160, 13);
+ }
+
+.footerThree p{
+    margin-left: 100px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    }
+
+.footerfour p{
+    text-align: center;
+}
+
+.footerfour img {
+    padding: 30px;
+    display: inline-block;
+    width: 150px;
+    height: auto;
+}
+
+
+
+
+
+/*THIS PARTY HANDLES THE SYTYLING FOR THE listNAV*/
+.listNav{
+    margin: 0;
+    border-top: 1px solid white;
+    background: #071ea0;
+    padding: 0;
+}
+
+.listNav ul{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.listNav li {
+    display: inline-block;
+    width: 10%;
+    margin: 5px;
+    padding: 15px;
+    text-align: center;
+}
+
+.listNav li a{
+    border: 1px solid;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    border: 1px solid transparent; 
+    transition: border-color 0.3s; 
+    padding: 10px;
+}
+
+.listNav li a:hover{
+    background-color: #3360f1;
+    color: white;
+}
+
+.list {
+    margin: 0;
+    background: #071ea0;
+    padding: 10px;
+    text-align: center;
+}
+
+.list button{
+    background: #071ea0;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid white;
+    
+}
+
+.list button:hover{
+    background-color: #3360f1;
+    color: white;
+}
+
+/*THIS PARTY HANDLES THE DESTINATION*/
+.destination {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+
+.destination h1{
+    color: black;
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.destination .destinaton {
+    font-size: 18px; /* Increase the size of the text */
+    padding: 10px 20px; /* Increase the size of the button */
+    color: black; /* Change the text color to white for better contrast */
+    border: none; /* Remove any default border */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.destination .destinaton:hover {
+    background-color: rgb(188, 188, 238); /* Optional: Change color on hover */
+}
+
+
+
+.callToAction {
+    border: 1px solid grey;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+/*THIS SECTION HANDLES THE PARTY FOR THE REGISTER PARTY*/
+
+.register{
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+    background-color: #0400ff;
+    color: white;
+}
+
+.register:hover{
+    background-color: #3360f1;
+    color: white;
+}
+
+.trending {
+     border: 1px solid grey;
+    display: inline-block;
+    width: 47%;
+    background-color: white;
+    margin: 10px;
+    padding: 10px
+}
+
+.trending a img{
+    border-radius: 10px;
+    width: 835px;
+    height: 500px;
+    transition: transform 0.3s ease ease-in-out;
+}
+
+.trending img:hover {
+    transform: scale(1.05);
+  }
+
+
+.trend {
+    border: 1px solid gray;
+    display: inline-block;
+    width: 30.5%;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+.trend img{
+    border-radius: 10px;
+    width: 534px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.trend img:hover {
+    transform: scale(1.05);
+  }
+/*THI S PARTY HANDLES THE HEADER PARTY */
+.label {
+    margin-top: 5px;
+    margin-left: 5px ;
+    font-size: 50px;
+}
+.label a{
+    color: white;
+    text-decoration: none;
+}
+.label a:hover{
+    background-color: #3360f1;
+    color: white;
+}
+
+.navigation{
+    background: #007bff;
+    height: 230px;
+}
+
+.image{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+   /* border: 1px solid rgb(159, 152, 251);*/
+    border-radius: 10px;
+}
+
+.a image {
+    border-radius: 50px;
+}
+
+.image:hover{
+    background-color: #0084ff;
+    color: white;
+}
+
+/*This the beginnning of the Navsec in the carrentals*/
+
+.navSec{
+    padding: 0;
+    margin: 0;
+    border: 1px solid #007bff;
+    height: 290px;
+    background-color: #007bff;
+}
+
+.navSec1{
+    margin-top: 80px;
+    margin-left: 30px;
+
+}
+
+.navSec1 h1{
+   color: white;
+   margin: 0;
+   padding: 0;
+   font-size: 90px;
+}
+
+.navSec1 p{
+   color: white;
+   margin: 0;
+   padding: 0;
+   font-size: 40px;
+   font-family:  'Arial', sans-serif;
+}
+
+
+
+/* THIS IS WHERE THE NAVIGATION STYLING BEGIN*/
+.navSection {
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.navSection1 {
+    height: 500px;
+    width: 100%;
+    background-image: url(../assets/images/backimage/background-image.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.navSection1 h1{
+    margin-top: 50px;
+    margin: 0; 
+    color: white;
+    font-size: 70px;
+    text-align: left;
+    align-items: left; 
+}
+
+.navSection1 p{
+    margin-top: 50px;
+    margin: 0; 
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    align-items: left;
+}
+
+.navSection1 button {
+    margin-top: 30px;
+    width: 17%;
+    font-size: 20px;
+    margin-left: 50px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: left; 
+}
+
+.navSection1 button:hover {
+    background-color: #0056b3;
+}
+
+/*THE BEGINNING OF THE TOP RIGHT  NAVIGATION*/
+.topNav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    align-items: center;
+}
+
+.topNav li {
+    margin: 10px;
+}
+
+.topNav li a {
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px; 
+}
+
+.topNav li a:hover {
+    background-color: #3360f1;
+    color: white;
+}
+
+
+/* THE BEGINNING OF THE BOTTOM LEFT NAAVIGATION */
+.bottomNav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.bottomNav ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.bottomNav li {
+    margin: 10px;
+}
+
+.bottomNav li a {
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+    border: 1px solid white;
+}
+
+.bottomNav li a{
+    font-size: 20px;
+}
+
+.bottomNav li i{
+    padding: 5px;
+  
+}
+
+.bottomNav li a:hover {
+    background-color: #2d59e9;
+    color: white;
+}
+
+#active{
+    background-color: #365fe7;
+    color: white;
+}
+
+
+/*THE BEGINNING OF THE FORM INSIDE INDEX.HTML*/
+.form{ 
+    text-align: center;
+    padding: -50px;
+    margin: 0 auto;
+}
+
+.form1{
+    display: inline-block;
+    border-radius: 10px;
+    border: 5px solid rgb(248, 125, 1);
+    padding: 0px;
+}
+
+.form2 input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 50px;
+    padding: 50px;
+}
+.form2 label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px; /* Adjust the font size of the label if needed */
+}
+
+
+.form input{
+    font-size: 30px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 5px;
+} 
+
+.form input[type="submit"] {
+    background-color: #2c5af1;
+    color: white;
+}
+
+.form input[type="submit"]:hover{
+    background-color: #1045f1;
+    color: white;
+}
+
+/* THE BEGINNING OF THE EXPLORATION PARTY*/
+
+
+.explore {
+    display: inline-block;
+    width: 30.5%;
+    background-color:white;
+    border: 1px solid gray;
+    margin: 10px;
+    padding: 10px
+}
+
+.explore a img{
+    width: 545px;
+    border-radius: 10px;
+    transition: transfrom 0.3 ease-in-out;
+}
+
+.explore img:hover {
+    transform: scale(1.05);
+  }
+
+
+
+
+.explore button{
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #1045f1;
+    color: white;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.explore button:hover{
+    background-color: #5077f7;
+    color: white;   
+}
+
+.unique {
+    display: inline-block;
+    width: 22%;
+    border: 1px solid gray;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.unique a img{
+    width: 395px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.unique img:hover {
+    transform: scale(1.05);
+  }
+
+.unique a img:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+.unique button{
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #1045f1;
+    color: white;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.unique button:hover{
+    background-color: #5077f7;
+    color: white;   
+}
+
+.property {
+    display: inline-block;
+    width: 22%;
+    border: 1px solid gray;
+    background-color:white;
+    margin: 10px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.property img{
+    width: 395px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.property img:hover {
+    transform: scale(1.05);
+  }
+
+.property button{
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #1045f1;
+    color: white;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.property button:hover{
+    background-color: #5077f7;
+    color: white;   
+}
+
+/*the beginning of the inspiration*/
+
+.inspiration {
+    border-radius: 10px;
+    border: 1px solid grey;
+    display: inline-block;
+    width: 49%;
+    background-color: white;
+    margin-left: 10px;
+}
+
+.inspiration1 img, .inspiration2 img{
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+    float: right;
+    border-radius: 10px;
+    border: 1px solid grey;
+    background-color: white;
+    transition: transform 0.3s ease-in-out;
+}
+
+.inspiration h3, .inspiration p{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.inspiration button{
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 30px;
+    background-color: #1045f1;
+    color: white;
+    padding: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.inspiration button:hover{
+    background-color: #5077f7;
+    color: white;    
+}
+
+.inspiration img:hover {
+    transform: scale(1.05);
+  }
+
+
+/*THIS PARTY CONTAINS THE BACKGROUND IMAGES*/
+.navSection {
+    background-image: url(frontEnd\assets\images\stays\background.jpg);
+}
+
+.offer {
+    border-radius: 10px;
+    border: 1px solid grey;
+    display: inline-block;
+    width: 49%;
+    background-color: white;
+    margin-left: 10px;
+}
+
+.offer h3, .offer p{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+
+.offer button{
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 30px;
+    color: white;
+    background-color: #1045f1;
+    padding: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+.offer button:hover{
+    background-color: #5077f7;
+    color: white;   
+}
+
+
+
+
+.offer2 {
+    width: 47%;
+    float: right;
+    height: 200px;
+    border-radius: 10px;
+    background-image: url(../assets/images/backimage/backSecond.jpg);
+    background-size: cover; 
+    background-position: center; 
+}
+
+.offer2 h3, .offer2 p{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+
+.offer2 button{
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 30px;
+    color: white;
+    background-color: #1045f1;
+    padding: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.offer2 button:hover{
+    background-color: #0b2888;
+    color: white;   
+}
+
+.offer1 img, .offer2 img{
+    width: 200px;
+    height: 200px;
+    float: right;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.offer1 img:hover{
+    transform: scale(1.03);
+  }
+
+/*the beginning of the css on the */
+.flights{
+    background-color: rgba(255, 255, 255, 0.932);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.form-group input{
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.form-group button{
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.form-group button{
+    color: white;
+    background-color: #1045f1;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.form-group button:hover{
+    background-color: #5077f7;
+    color: white;   
+}
+
+
+
+.main{
+    display: inline-block;
+    width: 22.3%;
+    border: 1px solid gray;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.mains{
+    font-size: 30px;
+    margin: 10px;
+}
+
+
+
+.para{
+    margin: 10px;
+    font-size: 20px;
+}
+
+.main h1{
+    font-size: 30px;
+}
+
+.main img{
+    width: 400px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.main img:hover {
+    transform: scale(1.05);
+  }
+
+
+
+
+
+.mainone{
+    display: inline-block;
+    width: 22.3%;
+    border: 1px solid gray;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    margin-left: 10px; 
+}
+
+.mainone img{
+    width: 400px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.mainone h1{
+    font-size: 30px;
+}
+
+.mainone img:hover {
+    transform: scale(1.05);
+  }
+
+
+
+
+
+
+.flight-main2{
+    margin-top: 50px;
+}
+
+.maintwo{
+    display: inline-block;
+    width: 98%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+.order li{
+    display: inline-block;
+    padding: 10px;
+   list-style-type: none;
+}
+
+.maintwo h2,
+ .maintwo p{
+    margin-left: 50px;
+}
+
+.order li a{
+    font-size: 25px;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.stand a{
+    background-color:#0659b1;
+    color: white;
+}
+
+.order li a:hover{
+    background-color:#b6d2f0;
+    color: #0056b3;
+}
+
+
+.mainthree{
+    display: inline-block;
+    width: 30%;
+    padding: 10;
+    margin: 10px;
+}
+
+.flight-main3{
+    height: 250px;
+    width: 100%;
+    margin-top: 50px;
+   background-color: rgba(245, 245, 245, 0.61);
+}
+
+.mainthree img{
+    width: 150px;
+    height: 150px;
+    float: left;
+    border-radius: 10px;
+}
+
+.mainfour {
+    border-radius: 10px;
+    display: inline-block;
+    width: 30.7%;
+    border: 1px solid rgba(14, 13, 13, 0.171);
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 10px;
+    margin-left: 15px;
+    height: 250px;
+    vertical-align: top;
+}
+
+.mainfour p, .mainfour h2{
+    margin-left: 20px;
+    font-family: 'Arial', sans-serif;
+    font-size: 25px;
+}
+
+
+
+/*The beginning of the Car Rentals */
+
+.car{
+    display: inline-block;
+    width: 5.7%;
+    /*border: 1px solid gray;*/
+    border-radius: 5px;
+    background-color: white;
+    margin: 25px;
+    padding: 10px;
+}
+
+.car img{
+    border: 1px solid rgba(2, 1, 1, 0.137);
+    width: 130px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.car p{
+    margin-left: 32px;
+}
+
+
+
+.CarRental h1{
+    font-family:  'Arial', sans-serif;
+    margin-left: 10px;
+}
+
+
+.car1{
+    width: 98%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+.rental li{
+    display: inline-block;
+    padding: 10px;
+   list-style-type: none;
+}
+
+.car1 h2,
+ .car1 p{
+    font-family:  'Arial', sans-serif;
+    margin-left: 50px;
+}
+
+.rental li a{
+    font-size: 25px;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.rentals a{
+    background-color:#0659b1;
+    color: white;
+}
+
+.Genius{
+    float: right;
+}
+
+.Genius img{
+    width: 150px;
+    height: 150px;
+}
+
+.rental li a:hover{
+    background-color:#b6d2f0;
+    color: #0056b3;
+}
+
+
+.car2{
+    display: inline-block;
+    width: 30%;
+    padding: 10;
+    margin: 10px;
+}
+
+.CarRental2{
+    height: 250px;
+    width: 100%;
+    margin-top: 50px;
+   background-color: rgba(153, 145, 145, 0.336);
+}
+
+.car2 img{
+    width: 150px;
+    height: 150px;
+    float: left;
+    border-radius: 10px;
+}
+
+/*  the part that handles an accordion in carRentals page */
+
+
+.accordio {
+    display: flex;
+    gap: 20px;
+}
+.accordion, .accordion1 {
+    width: 45%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+}
+.accordion li, .accordion1 li {
+    display: block;
+    border: 1px solid;
+    list-style-type: none;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    margin-bottom: 10px;
+}
+.accordion li label, .accordion1 li label {
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 10px;
+    display: block;
+}
+.accordion li label::before, .accordion1 li label::before {
+    content: '+';
+    float: right;
+    font-size: 24px;
+    font-weight: 600;
+}
+.accordion input[type="radio"], .accordion1 input[type="radio"] {
+    display: none;
+}
+.accordion .content, .accordion1 .content1 {
+    color: #555;
+    line-height: 1.5;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+.accordion input[type="radio"]:checked + label + .content,
+.accordion1 input[type="radio"]:checked + label + .content1 {
+    max-height: 200px; /* Adjust this value according to your content */
+}
+
+
+/*the beginning of the flight hotels*/
+
+.Hotel{
+    padding: 0;
+    margin: 0;
+    border: 1px solid #007bff;
+    height: 600px;
+    background-color: #043d7a;
+}
+
+.Hotels{
+    margin-top: 80px;
+    margin-left: 30px;
+
+}
+
+.Hotels h1{
+   color: white;
+   margin: 0;
+   padding: 0;
+   font-size: 90px;
+}
+
+.Hotels p{
+   margin: 10px;
+   color: white;
+   padding: 0;
+   font-size: 40px;
+   font-family:  'Arial', sans-serif;
+}
+
+.formTwo input[type="checkbox"] {
+    margin-bottom: 50px;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 50px;
+    padding: 50px;
+}
+.formTwo label {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px; /* Adjust the font size of the label if needed */
+}
+
+
+.formTwo input{
+    font-size: 30px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 5px;
+} 
+
+.formTwo input[type="submit"] {
+    background-color: #2c5af1;
+    color: white;
+}
+
+.formTwo input[type="submit"]:hover{
+    background-color: #1045f1;
+    color: white;
+}
+
+
+
+.hotelOne{
+    display: inline-block;
+    width: 30%;
+    padding: 10;
+    margin: 10px;
+}
+
+.hotel1 {
+    height: 250px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.hotelOne img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    border-radius: 10px;
+}
+
+
+.hotelTwo{
+    display: inline-block;
+    width: 14%;
+    border: 1px solid gray;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+
+.mains{
+    font-size: 30px;
+    margin: 10px;
+}
+
+
+
+.para{
+    margin: 10px;
+    font-size: 20px;
+}
+
+.hotelTwo p{
+    margin: 0;
+   padding: 5px;
+   margin: 5px;
+}
+
+.hotelTwo p a{
+    text-decoration: none;
+    color: rgb(68, 63, 63);
+}
+
+.hotelTwo h1{
+    margin: 0;
+    font-size: 30px;
+}
+
+.hotelTwo h1 a {
+    text-decoration: none;
+    color: rgb(68, 63, 63);
+}
+
+.hotelTwo img{
+    width: 250px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.hotelTwo img:hover {
+    transform: scale(1.05);
+  }
+
+/*The beginning of the airpottaxis*/
+.taxis{
+    height: 400px;
+}
+
+.taxis h1{
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.taxis p{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.taxis1{
+    display: inline-block;
+    width: 30%;
+    padding: 10;
+    margin: 10px;
+}
+
+.airPotTaxis1{
+    height: 250px;
+    width: 100%;
+    margin-top: 50px;
+   background-color: rgba(245, 245, 245, 0.61);
+}
+
+.taxis1 img{
+    width: 150px;
+    height: 150px;
+    float: left;
+    border-radius: 10px;
+}
+
+
+.airPotTaxis2 h1{
+    margin-right: 220px;
+}
+
+.taxis2{
+    width: 98%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+.air li{
+    display: inline-block;
+    padding: 10px;
+   list-style-type: none;
+}
+
+.taxis2 h1,
+ .taxis2 p{
+    font-family:  'Arial', sans-serif;
+    margin-left: 50px;
+}
+
+.air li a{
+    font-size: 25px;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.pot a{
+    background-color:#0659b1;
+    color: white;
+}
+
+.tax{
+    float: right;
+}
+
+.tax img{
+    width: 150px;
+    height: 150px;
+}
+
+.air li a:hover{
+    background-color:#b6d2f0;
+    color: #0056b3;
+}
+
+.airPortTaxis3{
+    display: flex;
+    justify-content: center;
+}
+
+.airPortTaxis3{
+    margin-top: 100px;
+}

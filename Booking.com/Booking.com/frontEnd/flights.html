@@ -1,0 +1,349 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Flights</title>
+</head>
+<link rel="stylesheet" href="styles/style.css">
+<body>
+<!---  top navigation with navigation links in both those two divs --->
+
+
+<nav class="navigation">
+    <label class="label"><a href="index.html">BOOK ME</a></label>
+       
+    <div class="topNav">
+       
+        <ul>
+            <li> <a href="currency.html"> Currency </a> </li>
+            <a href="britishflag.html"> <img src="Assets/Gb@3x.png" class="image"> </a> 
+            <li> <a href="faqs.html"> Faqs </a></li>
+            <li> <a href="question.html" > <i class="fa-regular fa-circle-question"> </i></a></li>
+            <li> <a href="register.html"> Register </a> </li>
+            <li> <a href="signIn.html"> Sign in </a> </li>    
+         </ul>
+    </div>
+
+    <div class="bottomNav">
+       <ul>
+          <li> <a href="index.html"> <i class="fa-solid fa-car-rear"> </i> Stays </a> </li>
+            <li> <a href="flights.html" id="active"> <i class="fa-solid fa-jet-fighter-up"> </i> Flights </a> </li>
+             <li> <a href="flightsHotel.html"> <i class="fa-solid fa-hotel"></i> Flights + Hotel </a> </li>
+             <li> <a href="carRentals.html"> <i class="fa-solid fa-car-rear"></i> Car Rentals </a> </li>
+              <li> <a href="attractions.html"> <i class="fa-solid fa-scroll-torah"> </i> Attractions </a> </li>
+          <li> <a href="airpotTaxis.html"> <i class="fa-solid fa-van-shuttle"> </i> Airport Taxis </a> </li>    
+       </ul>
+    </div>
+</nav>
+
+
+<!----  where do you want to go  -->
+
+           
+<section class="flights">
+    <div class="fight">
+    <h1>Compare and book flights with ease</h1>
+
+    
+
+    <div class="form2">
+        <form action="#">
+            <input class="form2" type="checkbox" id="vehicles">
+            <label for="#">Round trip</label>
+            <input class="form2" type="checkbox" id="vehicles">
+            <label for="#">One way</label>
+            <input class="form2" type="checkbox" id="vehicles">
+            <label for="driver_age">Multi-city</label>
+            <input class="form2" type="checkbox" id="vehicles">
+            <label for="age">Direct flights only</label>
+            <option value=""></option>
+        </form>
+        </div>
+
+
+
+    <h1> where do you want to go </h1>
+    
+    <form action="#" method="post" class="form-group1">
+
+        <div class="form-group">
+            <label for="from">From:</label>
+            <input type="text" id="from" name="from" required>
+        </div>
+
+        <div class="form-group">
+            <label for="to">To:</label>
+            <input type="text" id="to" name="to" required>
+        </div>
+
+        <div class="form-group">
+            <label for="departure">Departure:</label>
+            <input type="date" id="departure" name="departure" required>
+        </div>
+
+        <div class="form-group">
+            <label for="return">Return:</label>
+            <input type="date" id="return" name="return" required>
+        </div>
+
+        <div class="form-group">
+            <button type="submit">Search</button>
+        </div>
+    </form>
+
+    </div>
+</section>
+
+
+<section class="flight-main">
+     <h1 class="mains">Popular flights near you</h1>
+      <p class="para">Find deals on domestic and international flights</p>
+        
+
+      <h1> <a href="#">International</a> </h1>
+        <div class="main">
+           <a href="#"><img src="assets/images/main1.webp" alt=""></a>
+            <h1><a href="#">Montréal to Orlando </a></h1>
+            <p><a href="#">3 Jul - 10 Jul · Round trip </a></p>             
+        </div>
+      <div class="main">
+             <a href="#"><img src="assets/images/main2.webp" alt=""></a> 
+             <h1> <a href="#">Montréal to Fort Lauderdale</a></h1>
+             <p> <a href="#">2 Jul - 9 Jul · Round trip</a></p>
+      </div>
+
+       <div class="main">
+             <a href="#"><img src="assets/images/main3.webp" alt=""></a>
+             <h1><a href="#">Montréal to Cancún </a></h1>
+             <p> <a href="#">27 Jun - 4 Jul · Round trip</a></p>
+       </div>
+       
+        <div class="main">
+              <a href="#"><img src="assets/images/main4.webp" alt=""></a>
+              <h1><a href="#">Montréal to New York </a></h1>
+              <p> <a href="#">2 Jul - 9 Jul · Round trip</a></p>
+        </div>
+
+       
+        <h1><a href="#">Domestic</a></h1>
+        <div class="main">
+            <a href="#"><img src="assets/images/main5.webp" alt=""></a>
+            <h1> <a href="#">Wichita to Destin</a></h1>
+            <p>  <a href="#">Jul 4 - Jul 11 · Round trip</a></p>
+        </div>
+
+        <div class="main">
+            <a href="#"><img src="assets/images/main6.webp" alt=""></a>
+            <h1> <a href="#">Wichita to Las Vegas</a></h1>
+            <p> <a href="#">Jul 4 - Jul 11 · Round trip</a></p>
+        </div>
+
+        <div class="main">
+            <a href="#"><img src="assets/images/main7.webp" alt=""></a>
+            <h1> <a href="#">Wichita to Phoenix</a></h1>
+            <p> <a href="#">Jul 3 - Jul 10 · Round trip</a></p>
+        </div>
+
+        <div class="main">
+            <a href="#"><img src="assets/images/main8.webp" alt=""></a>
+            <h1> <a href="#">Wichita to Orlando</a></h1>
+            <p>  <a href="#">Jun 29 - Jul 6 · Round trip</a></p>
+        </div>
+
+
+
+       
+    <section class="flight-main1">
+           <h1 class="mains">Trending cities</h1>
+           <p class="para">Book flights to a destination popular with travellers from Canada</p>
+
+           <div class="mainone">
+               <a href="#"><img src="assets/images/mainone1.webp" alt=""></a>
+               <h1><a href="#">Paris, France </a></h1>
+               <p><a href="#">Flights from Montreal-Trudeau<br>International Airport<br>3 Jul - 10 Jul · Round trip</a></p>
+           </div>
+           
+            <div class="mainone">
+                <a href="#"><img src="assets/images/mainone2.webp" alt=""></a>
+                <h1><a href="#">Vancouver, Canada </a></h1>
+                <p><a href="#">Flights from Montreal-Trudeau<br>International Airport<br>3 Jul - 10 Jul · Round trip </a></p>
+            </div>
+
+             <div class="mainone">
+                <a href="#"><img src="assets/images/mainone3.webp" alt=""></a>
+                <h1><a href="#">Toronto, Canada </a></h1>
+                <p> <a href="#">Flights from Montreal-Trudeau<br>International Airport<br>27 Jun - 4 Jul · Round trip</a></p>
+             </div>
+
+             <div class="mainone">
+                <a href="#"><img src="assets/images/mainone4.webp" alt=""></a>
+                <h1> <a href="#">New York, United States</a></h1>
+                <p>F <a href="#">lights from Montreal-Trudeau<br>International Airport<br>2 Jul - 9 Jul · Round trip</a></p>
+             </div>
+
+
+    </section>
+
+        <section class="flight-main2">
+            <h1 class="mains">Your account, your travel </h1>
+
+            <div class="maintwo">
+               <h2>All your trip details in one place</h2>
+               <p class="para">Sign in to book faster and manage your trip with ease</p>
+               <ul class="order">
+                <li class="stand"><a href="">Sign In</a></li>
+                <li><a href="">Register</a></li>
+               </ul>
+            </div>
+        </section>
+
+         <section class="flight-main3">
+                <div class="mainthree">
+                    <img src="assets/images/search-flight.png" alt="">
+                    <h1>Search a huge selection</h1>
+                    <p>Easily compare flights, airlines and prices<br>- all in one place</p>
+                </div>
+               
+                <div class="mainthree">
+                    <img src="assets/images/money-flight.png" alt="">
+                      <h1>Pay no hidden fees</h1>
+                      <p>Get a clear price breakdown, every step<br>of the way</p>
+                </div>
+
+                <div class="mainthree">
+                    <img src="assets/images/airplane-flight.png" alt="">
+                     <h1>Get more flexibility</h1>
+                    <p>Change your travel dates with the <br>Flexible ticket option*</p>
+                </div>
+         </section>
+         
+
+         <section class="flight-main5">
+            <p>*Flexible plane tickets are available for an additional cost on selected airfares </p>
+
+              <h1>Fly worldwide with Booking.com</h1>
+               <p>Flights from wherever you are to wherever you want to go</p>
+
+         </section>
+
+        
+    
+       <section class="flight-main4">
+             <h1>Frequently asked questions</h1>
+
+             <div class="mainfour">
+               <h2>How do I find the cheapest flights on Booking.com?</h2>
+               <p>You can sort flights by price to see them from cheapest
+                 to most expensive. To find the cheapest flights, you also need to consider factors
+                 like when you're booking and want to travel.</p>
+             </div>
+
+             <div class="mainfour">
+                  <h2>Can I book one-way flights on Booking.com?</h2>
+                  <p>Yes, you can book one-way, round-trip, and multi-city flights on our site.</p>
+             </div>
+
+                   
+             <div class="mainfour">
+                <h2>How far in advance can I book a flight?</h2>
+                <p>You can book a flight up to one year before your departure date.</p>  
+             </div>
+             
+             <div class="mainfour">
+                <h2>Do flights get cheaper closer to departure?</h2>
+                <p>Generally, flight prices are more likely to increase the closer you get to your flight date.</p>
+             </div>
+
+             <div class="mainfour">
+                <h2>What is a flexible ticket?</h2>
+                <p>A flexible ticket allows you to change your flight with the same airline by only paying 
+                    the fare and tax difference. It can only be used for one confirmed change. You can add 
+                    the flexible ticket when booking your flight.</p>
+             </div>
+
+             <div class="mainfour">
+                <h2>Does Booking.com charge credit card fees?</h2>
+                <p>No, we don't charge any credit card fees. You can always see exactly what you’re paying for in 
+                    the price breakdown when reviewing your booking.</p>
+             </div>
+        </section>
+
+<!--  footer  section is here   -->
+
+<footer class="footerOne">
+    <div class="footer">
+        <ul>
+            <h3>Support</h3>
+            <li> <a href="index.html"> Coronavirus (COVID-19) FAQs </a></li>
+            <li> <a href="index.html"> Manage your trips </a></li>
+            <li> <a href="index.html"> Customer Service help </a></li>
+            <li> <a href="index.html"> Safety Resource Center </a></li>
+     </ul>
+    </div>
+
+    <div class="footer">
+        <ul>
+            <h3>Discover</h3>
+            <li> <a href="index.html"> Genius loyalty program </a></li>
+            <li> <a href="index.html"> Seasonal and holiday deals </a></li>
+            <li> <a href="index.html"> Travel articles </a></li>
+            <li> <a href="index.html"> Booking.com for Business </a></li>
+            <li> <a href="index.html"> Traveller Review Awards </a></li> 
+            <li> <a href="index.html"> Car rental </a></li> 
+            <li> <a href="index.html"> Flight finder </a></li>  
+            <li> <a href="index.html"> Restaurant reservations </a></li>  
+            <li> <a href="index.html"> Booking.com for Travel Agents </a></li>  
+            </ul>
+    </div>
+
+     <div class="footer">
+        <ul>
+            <h3>Terms and settings</h3>
+           <li> <a href="index.html"> Privacy & cookies </a></li>
+            <li> <a href="index.html"> Terms & conditions </a></li>
+            <li> <a href="index.html"> Don't sell my info </a></li>
+            <li> <a href="index.html"> Modern Slavery Statement </a></li>
+            <li> <a href="index.html"> Human Rights Statement </a></li> 
+        </ul>
+    </div>
+
+    <div class="footer">
+        <ul>
+            <h3>Partners</h3>
+            <li> <a href="index.html"> Extranet login </a></li>
+            <li> <a href="index.html"> Partner help </a></li>
+            <li> <a href="index.html"> List your property </a></li>
+            <li> <a href="index.html"> Become an affiliate </a></li> 
+            </ul>
+    </div>
+
+    <div class="footer">
+        <ul>
+            <h3>About</h3>
+            <li> <a href="index.html"> About Booking.com </a></li>
+            <li> <a href="index.html"> How We Work </a></li>
+            <li> <a href="index.html"> Sustainability </a></li>
+            <li> <a href="index.html"> Press center </a></li>
+            <li> <a href="index.html"> Careers </a></li> 
+            <li> <a href="index.html"> Investor relations </a></li> 
+            <li> <a href="index.html"> Corporate contact </a></li>  
+            </ul>
+    </div>
+</footer>
+
+  <footer class="footerfour">
+     <p>Booking.com is part of Booking Holdings Inc., the world leader in online travel and related services.</p>
+     <p> Copyright © 1996–2024 Booking.com™. All rights reserved. </p>
+       <div class="image-container">
+        <img src="assets/images/picha.png" alt="">
+        <img src="assets/images/picha1.png" alt="">
+        <img src="assets/images/picha2.png" alt="">
+        <img src="assets/images/picha3.png" alt="">
+        <img src="assets/images/picha4.png" alt="">
+    </div>
+  </footer>
+    
+  
+</body>
+</html>
